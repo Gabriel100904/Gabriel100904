@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    font-family:Verdana;
+}
+
+.questao{
+    padding: 8px;
+    margin: 8px;
+    width: 100%;
+}
