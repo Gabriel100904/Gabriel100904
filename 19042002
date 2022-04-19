@@ -1,0 +1,8 @@
+let botao_enviar = document.querySelector('#btn-enviar')
+
+botao_enviar.addEventListener('click', enviarResposta)
+
+function enviarResposta(){
+    let q1 = document.querySelector('#q1')
+    alert(q1.checked)
+}
