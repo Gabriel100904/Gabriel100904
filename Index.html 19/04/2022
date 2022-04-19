@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <title>Consulta de satisfação do Usuário</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+
+</head>
+
+<body>
+    <header>
+        <h2>consulta de satisfação do Usuário</h2>
+    </header>
+    <div class="container">
+        <div class="div-tittle">
+            <h2>Questionarios</h2>
+        </div>
+    </div class="div-product">
+    <img src="./img/produto.png" alt="produto">
+    </div>
+
+    <div>
+        <label >1) Você gostou do produto?</label>
+    </div>
+    <div class="div-question">
+        
+        <label>
+            <input type="radio" name="q1"> Muito satisfeito
+        </label>
+        </label>
+        <label>
+
+            <input type="radio" name="q1"> Satisfeito
+        </label>
+        <label>
+
+            <input type="radio" name="q1"> Neutro
+        </label>
+        <label>
+
+            <input type="radio" name="q1"> Insatisfeito
+        </label>
+        <label>
+
+            <input type="radio" name="q1"> Muito Insatisfeito
+        </label>
+    </div>
+
+    <div class="div-options">
+        <button type="button"btn.Enviar>Enviar</button>
+    </div>
+
+
+    <label>
+
+
+        </div>
+        </div>
+        <footer>
+            
+            <ul>
+                <li>Mercadinho do Senai</li>
+                <li>SC 401</li>
+            </ul>
+        </footer>
+
+        <script src="./js/script.js"></script>
+</body>
+
+</html>
