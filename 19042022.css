@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: monospace
+}
+
+header{
+    background-color: chocolate;
+    padding: 20px;
+}
+
+header h2{
+    color: bisque
+}
+
+footer{
+    background-color: crimson;
+    padding: 40px;
+}
+
+footer li{
+    color: cornsilk
+}
+
+.div-product{
+    margin: auto;
+    width: 60%
+}
+
+.div-product img{
+    width: 100%;
+}
+
+.container{
+    margin: auto;
+    margin-top: 15px;
+    width: 70%;
+    padding: 8px;
+    border-radius: 15px;
+    border: 2px solid cyan;
+}
+.div-title{
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: crimson;
+    border-radius: 15px;
+}
+
+
+.div-title h2{
+    color: bisque;
+    text-align: center;
+}
+
+.div-question{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.div-options{
+    margin-top: 8px;
+    display: flex;
+    font-size: x-small;
+    border: 2px solid chocolate;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.div-options label{
+    margin-right: 5px;
+}
+
+.div-options button{
+    width: 100px;
+    background-color: crimson;
+    color: cyan;
+    border-radius: 25px;
+    border: 2px solid chocolate;
+    cursor: pointer;
+}
+.div-options button:hover{
+    background-color: bisque;
+    color: brown;
+}
+
+@media screen and (max-width: 650px){
+    .div-options{
+        display:block;
+    }
+    
+    .div-options label{
+        margin-right: 0px;
+   }
+}
